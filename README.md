@@ -59,4 +59,4 @@ For recruiting conversations and entry-level IT or cybersecurity opportunities, 
 
 ---
 
-*Portfolio updated September 8, 2026. Training in progress is listed separately from completed credentials.*
+
