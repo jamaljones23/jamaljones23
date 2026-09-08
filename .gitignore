@@ -1,0 +1,24 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large virtual-machine and memory-image files
+*.raw
+*.vmem
+*.vmdk
+*.vdi
+*.qcow2
+*.iso
