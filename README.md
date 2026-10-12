@@ -16,6 +16,16 @@ I enjoy working through technical problems, documenting what I find, and explain
 
 I am interested in entry-level cybersecurity, help desk, service desk, and IT support opportunities where I can contribute and keep developing my technical skills.
 
+## YouTube Video Journal
+
+I'm documenting my cybersecurity homelab journey on YouTube to demonstrate my hands-on skills, troubleshooting experience, and progress toward becoming a cybersecurity professional.
+
+🎥 **[Day 0 — Introduction to My Cybersecurity Homelab](https://youtu.be/_Dk3WzOfcEo)**
+
+My projects will focus on networking, Windows Server, Active Directory, SIEM log monitoring, and security investigations.
+
+More videos and project documentation will be added as I progress.
+
 ## Featured work
 
 | Project | Skills demonstrated | Status |
