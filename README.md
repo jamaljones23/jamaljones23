@@ -33,6 +33,7 @@ More videos and project documentation will be added as I progress.
 | [Service desk incident triage — Datacom simulation](projects/datacom-service-desk/README.md) | Ticket categorization, impact and urgency assessment, escalation, outage communication | Completed simulation · September 2026 |
 | [Networking and security fundamentals — NexGenT training](projects/networking-security-training/README.md) | TCP/IP, DNS, routing and switching fundamentals, access control, Windows and Kali Linux labs | Completed guided training · Summary included |
 | [Memory forensics — Volatility troubleshooting](projects/volatility-troubleshooting/README.md) | Reading tool errors, questioning file formats, documenting evidence and next checks | Troubleshooting notes · Issue unresolved |
+| [Cybersecurity homelab — Day 1: Switch and LAN configuration](projects/homelab-day-1-switch-lan/README.md) | Cisco IOS, LAN setup, switch-port speed and duplex configuration, network troubleshooting | Completed · October 2026 |
 
 Each write-up explains the work's scope, the available evidence, and its current outcome. The Datacom project is a job simulation; the NexGenT entry summarizes guided training.
 
@@ -68,5 +69,4 @@ My next portfolio milestone is to add reproducible networking and help desk lab 
 For recruiting conversations and entry-level IT or cybersecurity opportunities, connect with me on [LinkedIn](https://www.linkedin.com/in/quincyjonesjr/) or email [jonesjrquincy23@gmail.com](mailto:jonesjrquincy23@gmail.com).
 
 ---
-
 
