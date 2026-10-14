@@ -26,6 +26,14 @@ My projects will focus on networking, Windows Server, Active Directory, SIEM log
 
 More videos and project documentation will be added as I progress.
 
+## Latest Homelab Update
+
+### Day 1 — Switch, LAN, Speed, and Duplex Configuration
+
+I configured my physical Cisco switch and LAN connections, then practiced checking and configuring port speed and duplex settings. This work helped me understand how devices communicate on a local network and how speed and duplex mismatches can cause connection problems.
+
+[View the Day 1 project documentation](projects/homelab-day-1-switch-lan/README.md)
+
 ## Featured work
 
 | Project | Skills demonstrated | Status |
