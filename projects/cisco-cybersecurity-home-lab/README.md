@@ -43,7 +43,7 @@ show logging
 show running-config
 ```
 
-The existing configuration was reviewed for learning, but **not published**. The console photo is cropped and redacted; the other observations are recorded as text.
+The existing configuration was reviewed for learning, but **not published**. The photos show the equipment and console output, with identifying details cropped out or covered.
 
 ### 🔎 Observations
 
@@ -58,7 +58,9 @@ The existing configuration was reviewed for learning, but **not published**. The
 
 ## 📸 Day 1 evidence
 
-[Read the interface and logging observations](evidence/observations.md) for the switch and router results. The router console photo below shows the Cisco 1921 model and its two Gigabit Ethernet interfaces.
+[Open the Day 1 photo gallery](evidence/README.md) for all six hardware and console photos, or [read the interface and logging observations](evidence/observations.md).
+
+![The Cisco 1921 router above the Catalyst 3750G switch](evidence/01-cisco-router-switch.jpg)
 
 ![Cisco 1921 console output, with device identifiers removed](evidence/03-router-console-version.jpg)
 
@@ -96,7 +98,7 @@ I documented how I accessed the Cisco 1921 and 3750G, checked IOS version and in
 
 ## 🔒 Safety and privacy
 
-- The router photo is a **redacted copy**; original photos are not included.
+- The gallery uses cropped or redacted copies of the lab photos.
 - No passwords, full `running-config`, device serial numbers, Mac usernames, public IP addresses, or identifying device labels are intentionally published.
 - Before sharing or pushing new screenshots, manually inspect them for credentials, serial numbers, addresses, MAC addresses, and personal information.
 - Do not expose legacy Cisco management interfaces directly to the Internet.

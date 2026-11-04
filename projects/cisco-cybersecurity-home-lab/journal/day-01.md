@@ -59,6 +59,8 @@ show running-config
 
 ## Evidence
 
+- [Day 1 photo gallery: hardware, cabling, and Cisco console checks](../evidence/README.md)
+
 - [Cisco 1921 router console photo](../evidence/03-router-console-version.jpg)
 - [Equipment, interface states, and router logging observations](../evidence/observations.md)
 
