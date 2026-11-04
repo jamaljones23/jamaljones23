@@ -28,7 +28,13 @@ More videos and project documentation will be added as I progress.
 
 ## Latest Homelab Update
 
-### Day 1 — Switch, LAN, Speed, and Duplex Configuration
+### Day 1 of 15 — Cisco console access and baseline checks
+
+I connected my MacBook Air to a Cisco 1921 router and a Catalyst 3750G switch through their console ports. I checked which Ethernet links were up and confirmed that logging was enabled on the router.
+
+[View the 15-day project](https://github.com/jamaljones23/jamaljones23/tree/main/projects/cisco-cybersecurity-home-lab) · [Read my Day 1 lab journal](https://github.com/jamaljones23/jamaljones23/blob/main/projects/cisco-cybersecurity-home-lab/journal/day-01.md)
+
+### Earlier lab — Switch, LAN, speed, and duplex configuration
 
 I configured my physical Cisco switch and LAN connections, then practiced checking and configuring port speed and duplex settings. This work helped me understand how devices communicate on a local network and how speed and duplex mismatches can cause connection problems.
 

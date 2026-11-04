@@ -1,0 +1,14 @@
+# Do not accidentally publish raw Cisco configs or private evidence
+.DS_Store
+*.swp
+.env
+.env.*
+private/
+secrets/
+backups/
+configs/
+raw-photos/
+IMG_*.jpeg
+IMG_*.HEIC
+*running-config*
+*startup-config*
