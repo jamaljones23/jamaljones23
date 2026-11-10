@@ -28,11 +28,13 @@ More videos and project documentation will be added as I progress.
 
 ## Latest Homelab Update
 
-### Day 1 of 15 — Cisco console access and baseline checks
+### Day 3 of 15 — Cisco router-to-switch connectivity
 
-I connected my MacBook Air to a Cisco 1921 router and a Catalyst 3750G switch through their console ports. I checked which Ethernet links were up and confirmed that logging was enabled on the router.
+I confirmed that my Cisco 1921 router and Catalyst 3750G switch discover each other through CDP. The link between router `Gi0/1` and switch `Gi2/0/1` is operating at 1 Gbps, full duplex, with zero input, CRC, and output errors in the inspected counters.
 
-[View the 15-day project](https://github.com/jamaljones23/jamaljones23/tree/main/projects/cisco-cybersecurity-home-lab) · [Read my Day 1 lab journal](https://github.com/jamaljones23/jamaljones23/blob/main/projects/cisco-cybersecurity-home-lab/journal/day-01.md)
+The next milestone is verifying IP connectivity with ping. A healthy Ethernet link does not automatically prove end-to-end IP communication.
+
+[View the 15-day project](projects/cisco-cybersecurity-home-lab/README.md) · [Read my Day 3 lab journal](projects/cisco-cybersecurity-home-lab/journal/day-03.md)
 
 ### Earlier lab — Switch, LAN, speed, and duplex configuration
 
@@ -44,10 +46,10 @@ I configured my physical Cisco switch and LAN connections, then practiced checki
 
 | Project | Skills demonstrated | Status |
 | --- | --- | --- |
+| [Cisco cybersecurity home lab](projects/cisco-cybersecurity-home-lab/README.md) | Cisco IOS, CDP, interface diagnostics, network documentation | Day 3 of 15 completed |
 | [Service desk incident triage — Datacom simulation](projects/datacom-service-desk/README.md) | Ticket categorization, impact and urgency assessment, escalation, outage communication | Completed simulation · September 2026 |
 | [Networking and security fundamentals — NexGenT training](projects/networking-security-training/README.md) | TCP/IP, DNS, routing and switching fundamentals, access control, Windows and Kali Linux labs | Completed guided training · Summary included |
 | [Memory forensics — Volatility troubleshooting](projects/volatility-troubleshooting/README.md) | Reading tool errors, questioning file formats, documenting evidence and next checks | Troubleshooting notes · Issue unresolved |
-| [Cybersecurity homelab — Day 1: Switch and LAN configuration](projects/homelab-day-1-switch-lan/README.md) | Cisco IOS, LAN setup, switch-port speed and duplex configuration, network troubleshooting | Completed · October 2026 |
 
 Each write-up explains the work's scope, the available evidence, and its current outcome. The Datacom project is a job simulation; the NexGenT entry summarizes guided training.
 
@@ -83,4 +85,3 @@ My next portfolio milestone is to add reproducible networking and help desk lab 
 For recruiting conversations and entry-level IT or cybersecurity opportunities, connect with me on [LinkedIn](https://www.linkedin.com/in/quincyjonesjr/) or email [jonesjrquincy23@gmail.com](mailto:jonesjrquincy23@gmail.com).
 
 ---
-
