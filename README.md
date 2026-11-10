@@ -28,13 +28,13 @@ More videos and project documentation will be added as I progress.
 
 ## Latest Homelab Update
 
-### Day 3 of 15 — Cisco router-to-switch connectivity
+### Day 4 of 15 — Cisco log investigation and timestamp correction
 
-I confirmed that my Cisco 1921 router and Catalyst 3750G switch discover each other through CDP. The link between router `Gi0/1` and switch `Gi2/0/1` is operating at 1 Gbps, full duplex, with zero input, CRC, and output errors in the inspected counters.
+I inspected the Catalyst 3750G's logging status and event history, identified repeated link-state events on `Gi2/0/2`, and discovered that the switch clock still reported 1993 with no synchronized time source.
 
-The next milestone is verifying IP connectivity with ping. A healthy Ethernet link does not automatically prove end-to-end IP communication.
+I manually corrected the clock to November 10, 2026, verified the new time, and confirmed that Cisco IOS recorded a `%SYS-6-CLOCKUPDATE` event. This exercise connected basic network troubleshooting with the timestamp discipline needed for SIEM investigations.
 
-[View the 15-day project](projects/cisco-cybersecurity-home-lab/README.md) · [Read my Day 3 lab journal](projects/cisco-cybersecurity-home-lab/journal/day-03.md)
+[View the 15-day project](projects/cisco-cybersecurity-home-lab/README.md) · [Read my Day 4 lab journal](projects/cisco-cybersecurity-home-lab/journal/day-04.md)
 
 ### Earlier lab — Switch, LAN, speed, and duplex configuration
 
@@ -46,7 +46,7 @@ I configured my physical Cisco switch and LAN connections, then practiced checki
 
 | Project | Skills demonstrated | Status |
 | --- | --- | --- |
-| [Cisco cybersecurity home lab](projects/cisco-cybersecurity-home-lab/README.md) | Cisco IOS, CDP, interface diagnostics, network documentation | Day 3 of 15 completed |
+| [Cisco cybersecurity home lab](projects/cisco-cybersecurity-home-lab/README.md) | Cisco IOS, syslog analysis, event timestamps, network documentation | Day 4 of 15 completed |
 | [Service desk incident triage — Datacom simulation](projects/datacom-service-desk/README.md) | Ticket categorization, impact and urgency assessment, escalation, outage communication | Completed simulation · September 2026 |
 | [Networking and security fundamentals — NexGenT training](projects/networking-security-training/README.md) | TCP/IP, DNS, routing and switching fundamentals, access control, Windows and Kali Linux labs | Completed guided training · Summary included |
 | [Memory forensics — Volatility troubleshooting](projects/volatility-troubleshooting/README.md) | Reading tool errors, questioning file formats, documenting evidence and next checks | Troubleshooting notes · Issue unresolved |
