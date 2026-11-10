@@ -62,3 +62,15 @@ Assign or verify the isolated lab addressing, then test IP connectivity with pin
 ## Evidence privacy
 
 Any screenshots shared publicly must have usernames, MAC addresses, serial numbers, credentials, and IP addresses removed or covered.
+
+## Photo evidence
+
+The public versions below hide the Mac username and switch MAC address while preserving the command results.
+
+![Router discovers the switch through CDP](../evidence/day3-01-router-discovers-switch.jpg)
+
+![Switch interface health and error counters](../evidence/day3-02-interface-health.jpg)
+
+![Switch discovers the Cisco 1921 and shows active ports](../evidence/day3-03-switch-discovers-router.jpg)
+
+![Switch-side CDP confirmation](../evidence/day3-04-switch-cdp-confirmation.jpg)
